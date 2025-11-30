@@ -20,6 +20,7 @@ layout: default
   - ### Machine Intelligence
     - [JEPA: Advanced Machine Intelligence](https://ai.meta.com/research/publications/revisiting-feature-prediction-for-learning-visual-representations-from-video/)
     - [V-JEPA2: Implementation of AMI](https://ai.meta.com/vjepa/)
+    - [LeJEPA: Regularization for representation](https://arxiv.org/pdf/2511.08544)
 
   - ### Deep Learning
     - [Let's build GPT: from scratch, in code, spelled out.](https://youtu.be/kCc8FmEb1nY?si=tkQTUXFrtItrJQEG)
