@@ -1,3 +1,8 @@
+---
+layout: default
+title: Rust로 고유값/고유벡터 찾기
+---
+
 # Rust로 고유값/고유벡터 찾기
 
   ## 소개
