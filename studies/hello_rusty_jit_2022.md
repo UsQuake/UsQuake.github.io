@@ -1,3 +1,8 @@
+---
+layout: default
+title: Hello, Rusty, JIT!
+---
+
 # Rust ARM Binary Execution (Apple Silicon Only)
 
 ## Introduction
