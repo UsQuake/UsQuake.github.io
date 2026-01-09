@@ -2,15 +2,15 @@
 layout: default
 title: Fuzzing JS-engines in Rust!
 ---
-  # Embed AFL++(CLASSIC mode) instrumented javascript engine in rust code.
+# Embed AFL++(CLASSIC mode) instrumented javascript engine in rust code.
 
-  ## 0. Supported environment
+## 0. Supported environment
   
   - Now, x86 Ubuntu-22.02(WSL2, container is ok) only.
     
   - We will support more environment after research experiment is done.
   
-  ## 1. Set AFL++ & LLVM.
+## 1. Set AFL++ & LLVM.
 
   - For support AFL++ LLVM mode, get both llvm-15 and llvm-15-tools.
     + `sudo apt-get install -y llvm-15 llvm-15-tools clang-15 lld-15 build-essential`
@@ -48,10 +48,10 @@ title: Fuzzing JS-engines in Rust!
      + `sudo cp llvm-ar-15 /usr/local/bin/llvm-ar`
      + `sudo cp llvm-readelf-15 /usr/local/bin/llvm-readelf`
      + `sudo cp llvm-nm-15 /usr/local/bin/llvm-nm`
-       
-  ## 2. Install and set build environment to build JS engine.
+
+## 2. Install and set build environment to build JS engine.
   
-  ### V8
+### V8
   
   - Clone *rusty_v8* which is an Rust-FFI of v8 static library.
      + `cd path_to_clone`
@@ -61,7 +61,7 @@ title: Fuzzing JS-engines in Rust!
      + `sudo apt install -y libglib2.0-dev`
      + `git submodule update --init --recursive`
 
-  ### SpiderMonkey
+### SpiderMonkey
   
   - Clone *mozjs* which is an Rust-FFI of SpiderMonkey static library.
      + `cd path_to_clone`
@@ -78,7 +78,7 @@ title: Fuzzing JS-engines in Rust!
      + Under 235th line in *build.rs*, add follow line.
      + `.compiler("clang++-15")`
     
-  ### JavascriptCore
+### JavascriptCore
   
   - Clone *jsc-sys* which is an Rust-FFI of jsc static library.
      + `cd path_to_clone`
@@ -100,14 +100,14 @@ title: Fuzzing JS-engines in Rust!
      + `println!("cargo:rustc-link-lib=atomic");`
   
 
- ## 3. Build custom runners
+## 3. Build custom runners
 
- ### Write your own runner
+### Write your own runner
 
  - If you want to write own runner,
  - Edit *Cargo.toml* of each runner to use your custom build of rusty JS engines.
      
- ### V8 sample runner
+### V8 sample runner
 
   - Clone *v8-integ* which is an sample runner.
      + `cd path_to_clone`
@@ -127,7 +127,7 @@ title: Fuzzing JS-engines in Rust!
   - Finally, build runner.
      + `cargo build`
        
- ### SpiderMonkey sample runner
+### SpiderMonkey sample runner
   
   - Clone *mozjs-integ* which is an sample runner.
      + `cd path_to_clone`
@@ -150,7 +150,7 @@ title: Fuzzing JS-engines in Rust!
   - Finally, build runner.
      + `cargo build`
          
- ### JSC runner
+### JSC runner
   
   - Clone *jsc-integ* which is an sample runner.
      + `cd path_to_clone`
