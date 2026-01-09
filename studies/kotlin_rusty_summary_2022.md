@@ -1,4 +1,8 @@
-# 코틀린 문법
+---
+layout: default
+title: Java vs Kotlin
+---
+
 ## Java랑 다른 점
 ### 변수
   * 모든 변수는 객체다
