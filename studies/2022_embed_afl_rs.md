@@ -2,7 +2,6 @@
 layout: default
 title: Fuzzing JS-engines in Rust!
 ---
-# Embed AFL++(CLASSIC mode) instrumented javascript engine in rust code.
 
 ## 0. Supported environment
   
