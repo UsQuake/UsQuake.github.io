@@ -1,3 +1,8 @@
+---
+layout: default
+title: Hack GPU compiler with GPT-5 :)
+---
+
 # How to add a lowering pass to the MESA NIR compiler
 
 ## Introduction
