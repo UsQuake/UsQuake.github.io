@@ -11,7 +11,7 @@ layout: default
 - ## Hack
   - [V8 monolith build options](https://github.com/newkjs/v8-monolith-builds)
   - [Write a JVM GC from scratch](https://shipilev.net/jvm/diy-gc/)
-  - [Hack GPU Compiler With GPT-5:)](https://github.com/UsQuake/UsQuake.github.io/studies/2025_gpu_compiler_hack.md)
+  - [Hack GPU Compiler With GPT-5:)](https://github.com/UsQuake/UsQuake.github.io/studies/2025_gpu_compiler_hack)
 
 - ## Software Engineering
   - [Greybox Fuzzing for Concurrency Testing](https://dl.acm.org/doi/10.1145/3620665.3640389)
