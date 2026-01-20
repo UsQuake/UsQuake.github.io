@@ -4,8 +4,12 @@ layout: default
 
 # Baseline
 
-- ## AI
-  
+- ## Artificial Intelligence
+
+  - ### Brain Reverse-Engineering
+    + [Abstract Representations of Associated Emotions in the
+Human Brain](https://pubmed.ncbi.nlm.nih.gov/25855179/)
+
   - ### Evolutionary Learning
     + [Evolvable Neural Unit](https://arxiv.org/abs/1912.07589)
 
