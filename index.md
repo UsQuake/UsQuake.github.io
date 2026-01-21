@@ -11,8 +11,12 @@ layout: default
 Human Brain](https://pubmed.ncbi.nlm.nih.gov/25855179/)
 
   - ### Evolutionary Learning
-    + [Evolvable Neural Unit](https://arxiv.org/abs/1912.07589)
+    + [Evolvable Neural Unit with Gaussian Mutation](https://arxiv.org/abs/1912.07589)
 
+  - ### Self-supervised Learning
+    + [SSL, NYU Yann Le Cun](https://www.youtube.com/watch?v=AfqWt1rk7TE&t=421s)
+    + [VICReg](https://arxiv.org/abs/2105.04906)
+      
   - ### Generative Language Model
     + [Let's build GPT: from scratch, in code, spelled out.](https://youtu.be/kCc8FmEb1nY?si=tkQTUXFrtItrJQEG)
     + [Q&A with RAG with Langchain](https://python.langchain.com/v0.1/docs/use_cases/question_answering/)
@@ -20,7 +24,7 @@ Human Brain](https://pubmed.ncbi.nlm.nih.gov/25855179/)
   - ### Turing-Complete World Model
     + [JEPA: Advanced Machine Intelligence](https://ai.meta.com/research/publications/revisiting-feature-prediction-for-learning-visual-representations-from-video/)
     + [V-JEPA2: Implementation of AMI](https://ai.meta.com/vjepa/)
-    + [LeJEPA: Regularization for representation](https://arxiv.org/pdf/2511.08544)
+    + [LeJEPA: Regularization With Gaussian Manifold](https://arxiv.org/pdf/2511.08544)
 
 - ## Compiler
   - [Pikuma: Create A Programming Language Compiler](https://pikuma.com/courses/create-a-programming-language-compiler)
